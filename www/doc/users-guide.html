@@ -71,7 +71,7 @@ $ java -jar rngom-sample.jar &lt;schema file>
 			This package defines a default implementation of the rest of the <tt>ast.om</tt>/<tt>ast.builder</tt> packages. This package models the simple syntax of RELAX NG, and it doesn't carry any annotations, comments, nor location information. Also, it does not preserve &lt;grammar>, &lt;include>, &lt;define> and &lt;ref>.
 			This implementation might be useful for applications such as validators and editors which are typically interested in the structural relationship between elements and attributes.
 			
-		<dt>rngom.digest package
+		<dt>rngom.digested package
 		<dd>
 			This package defines another default implementation of the rest of the <tt>ast.om</tt>/<tt>ast.builder</tt> packages. This package is aimed toward databinding applications, which typically care about how patterns are &lt;define>d and &lt;ref>erenced. This model also captures the annotations.
 	</dl>
@@ -80,7 +80,7 @@ $ java -jar rngom-sample.jar &lt;schema file>
 	
 	<h2>Datatype Libraries</h2>
 	<p>
-		To use <tt>rngom.binary</tt> or <tt>rngom.digest</tt> packages, you need to have appropriate datatype library implementaions that implement the <tt>org.relaxng.datatype</tt> API. This typically means you'd want to have an XML Schema datatypes library implementation such as <a href="https://msv.dev.java.net/servlets/ProjectDocumentList?folderID=101&expandFolder=101&folderID=100">xsdlib.jar</a>. By default, you just need to set classpath to include this jar and that should work. To customize this process, refer to javadoc.
+		To use <tt>rngom.binary</tt> or <tt>rngom.digested</tt> packages, you need to have appropriate datatype library implementaions that implement the <tt>org.relaxng.datatype</tt> API. This typically means you'd want to have an XML Schema datatypes library implementation such as <a href="https://msv.dev.java.net/servlets/ProjectDocumentList?folderID=101&expandFolder=101&folderID=100">xsdlib.jar</a>. By default, you just need to set classpath to include this jar and that should work. To customize this process, refer to javadoc.
 	</p>
 	
 	
