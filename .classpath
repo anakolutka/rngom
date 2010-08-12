@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="rngom/src"/>
+	<classpathentry kind="src" path="rngom/test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+	<classpathentry kind="lib" path="rngom/lib/relaxngDatatype.jar"/>
+	<classpathentry kind="lib" path="rngom/lib/xsdlib.jar"/>
+	<classpathentry kind="lib" path="rngom/lib/xmlunit-1.3.jar" sourcepath="/Users/john/os/xmlunit-1.3/src"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
